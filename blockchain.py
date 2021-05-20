@@ -180,7 +180,6 @@ class Blockchain(object):
 
 # Instantiate our Node
 app = Flask(__name__)
-# app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
 
 # Generate a globally unique address for this node
 node_indentifier = str(uuid4()).replace('-', '')
